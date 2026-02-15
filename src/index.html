@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA AWOS</title>
+</head>
+<body>
+
+<h1>Productos</h1>
+
+<input type="text" id="searchInput" placeholder="Buscar productos...">
+<button onclick="buscarProductos()">Buscar</button>
+<button onclick="limpiarBusqueda()">Limpiar Busqueda</button>
+
+<p id="status"></p>
+
+<table border="1">
+
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+
+    <tbody id="ListaProductos"></tbody>
+
+</table>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
